@@ -24,7 +24,7 @@ Yes, you read right: all this for free. (Except for your domain registration cos
 1. Create a Gmail account, e.g. `my-email@gmail.com`, if you don't have one already.
 1. After transfer is done, set up email forwarding in Google Domains to forward all `*@my-domain.com` to your Gmail email.
    - Go to: [domains.google.com/registrar/](https://domains.google.com/registrar/) > My domains > `my-domain.com` > Manage > Email > Email forwarding > Add email alias. Then add `*@my-domain.com` with the forward target `my-email@gmail.com`.
-1. Setup up a new `Send email as` configuration in your Gmail. To enable sending emails from `hello@my-domain.com` using your gmail account. (PR welcome to add instructions.)
+1. Setup up a new `Send email as` configuration in your Gmail to enable sending emails from `hello@my-domain.com` using your gmail account. (PR welcome to add instructions.)
 1. Test your setup.
    - Create a new temporary fake Gmail account: Go to [gmail.com](https://gmail.com) in Incognito Mode (`<Ctrl><Shift>N`).
      > No telephone number nor secondary email is required (a Gmail account can be created completely anonymously).
