@@ -1,19 +1,20 @@
-This setup uses:
- - Gmail
- - Google Domains
+Use:
+ - [Gmail](https://gmail.com/)
+ - [Google Domains](https://domains.google.com/)
+
+To get:
+
+Benefits:
+ - Free custom domain emailing. (E.g. `hello@my-domain.com`.)
+ - Free programmatic emailing. (More reliable than SaaS like [mailgun](https://www.mailgun.com/).)
 
 > This setup does *not* use Google Workspaces (which has no free tier anymore).
 
-Benefits:
- - Custom domain emailing. (E.g. `hello@my-domain.com`.)
-   - Free
- - Programmatic emailing.
-   - Free
-   - More reliable than these SaaS like [mailgun](https://www.mailgun.com/).
+Yes, you read right: all this for free. (Except for your domain registration costs, obviously.)
 
 > Programmatic emailing means, for example, to send emails from JavaScipt `sendEmail({ from: 'hello@my-domain.com', to: 'some-customer@hotmail.com', subject: 'hello', body: 'Regarding your last email...' })`.
 
-> IIRC, there is a soft cap of sending 500 emails per day. PR welcome if I'm wrong, or to add an information source.
+> IIRC, there is a soft cap of sending 500 emails per day. PR welcome if I'm wrong, or to add an information source if I'm right.
 
 1. If your domain, e.g. `my-domain.com`, is not already registered with [Google Domains](https://domains.google.com/), then transfer your domain to Google Domains [domains.google.com/registrar/transfer](https://domains.google.com/registrar/transfer).
    >  - Google Domains will show you some transfer cost, but these are only one additional domain year purchase. Transferring is actually free.
