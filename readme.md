@@ -3,8 +3,6 @@ Use:
  - [Google Domains](https://domains.google.com/)
 
 To get:
-
-Benefits:
  - Free custom domain emailing. (E.g. `hello@my-domain.com`.)
  - Free programmatic emailing. (More reliable than SaaS like [mailgun](https://www.mailgun.com/).)
 
