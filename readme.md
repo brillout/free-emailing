@@ -23,7 +23,7 @@ Yes, you read right: all this for free. (Except for your domain registration cos
    > Transfer takes [Takes 5-7 days](https://support.google.com/domains/answer/9003220?hl=en&ref_topic=9003137).
 1. Create a Gmail account, e.g. `my-email@gmail.com`, if you don't have one already.
 1. After transfer is done, set up email forwarding in Google Domains to forward all `*@my-domain.com` to your Gmail email.
-   - [domains.google.com/registrar/](https://domains.google.com/registrar/) > My domains > `my-domain.com` > Manage > Email > Email forwarding > Add email alias >  `*@my-domain.com` Fowards to `my-email@gmail.com`.
+   - [domains.google.com/registrar/](https://domains.google.com/registrar/) > My domains > `my-domain.com` > Manage > Email > Email forwarding > Add email alias > Add `*@my-domain.com` to forward to `my-email@gmail.com`.
 1. Setup up a new `Send email as` configuration in your Gmail. To enable sending emails from `hello@my-domain.com` using your gmail account. (PR welcome to add instructions.)
 1. Test your setup.
    - Create a new temporary fake Gmail account: Go to [gmail.com](https://gmail.com) in Incognito Mode (`<Ctrl><Shift>N`).
