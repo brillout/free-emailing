@@ -6,7 +6,7 @@ Use:
 
 To get:
  - Free emailing with your custom domain. (E.g. `hello@my-domain.com`.)
- - Free emailing with a programmatic JavaScipt API and [Nodemailer](https://github.com/nodemailer/nodemailer). (More reliable than SaaS like [mailgun](https://www.mailgun.com/).)
+ - Free emailing with a programmatic JavaScipt API. (More reliable than SaaS like [mailgun](https://www.mailgun.com/).)
 
 Yes, you read right: all this for free. (Except for your domain registration costs, obviously.)
 
