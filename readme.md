@@ -18,16 +18,18 @@ Yes, you read right: all this for free. (Except for your domain registration cos
 ## Custom Domain Emailing
 
 1. If your domain, e.g. `my-domain.com`, is not already registered with [Google Domains](https://domains.google.com/), then transfer your domain to Google Domains [domains.google.com/registrar/transfer](https://domains.google.com/registrar/transfer).
-   >  - Google Domains will show you some transfer cost, but these are only one additional domain year purchase. Transferring is actually free.
-   >  - Transfer takes [Takes 5-7 days](https://support.google.com/domains/answer/9003220?hl=en&ref_topic=9003137).
+   > Google Domains will show you some transfer cost, but these are only one additional domain year purchase. Transferring is actually free.
+
+   > Transfer takes [Takes 5-7 days](https://support.google.com/domains/answer/9003220?hl=en&ref_topic=9003137).
 1. Create a Gmail account, e.g. `my-email@gmail.com`, if you don't have one already.
 1. After transfer is done, set up email forwarding in Google Domains to forward all `*@my-domain.com` to your Gmail email.
    - [domains.google.com/registrar/](https://domains.google.com/registrar/) > My domains [my-domain.com] > Manage > Email > Email forwarding > Add email alias >  `*@my-domain.com` Fowards to `my-email@gmail.com`.
-1. Setup up a new `Send email as` configuration in your Gmail. So that you'll be able to send emails from `hello@my-domain.com` using your gmail account. (PR welcome to add instructions.)
+1. Setup up a new `Send email as` configuration in your Gmail. To enable sending emails from `hello@my-domain.com` using your gmail account. (PR welcome to add instructions.)
 1. Test your setup.
    - Create a new temporary fake Gmail account: Go to [gmail.com](https://gmail.com) in Incognito Mode (`<Ctrl><Shift>N`).
-     > - No telephone number nor secondary email is required (a Gmail account can be created completely anonymously).
-     > - The are a zillions of disposable emails services, such as [guerrillamail.com](https://www.guerrillamail.com), but these are not reliable. In the end, it's just faster to quickly create a new Gmail account.
+     > No telephone number nor secondary email is required (a Gmail account can be created completely anonymously).
+
+     > The are a zillions of disposable emails services, such as [guerrillamail.com](https://www.guerrillamail.com), but these are not reliable. In the end, it's just faster to quickly create a new Gmail account.
 
 
 ## Programmatic Emailing
