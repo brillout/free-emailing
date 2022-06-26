@@ -34,7 +34,7 @@ Yes, you read right: all this for free. (Except for your domain registration cos
 
 ## Programmatic Emailing
 
-> Programmatic emailing means, for example, to send emails from JavaScipt `sendEmail({ from: 'hello@my-domain.com', to: 'some-customer@hotmail.com', subject: 'hello', body: 'Regarding your last email...' })`.
+> Programmatic emailing means, for example, to send emails from JavaScipt `sendEmail({ from: 'hello@my-domain.com', to: 'some-customer@hotmail.com', subject: 'You got a new message', body: 'Someone replied to your post...' })`.
 
 For programmatic emailing with JavaScript and [Nodemailer](https://github.com/nodemailer/nodemailer):
  - [Stack Overflow > What is the definitive way to use Gmail with OAuth and Nodemailer? > Accepted Answer](https://stackoverflow.com/questions/51933601/what-is-the-definitive-way-to-use-gmail-with-oauth-and-nodemailer/51933602#51933602)
