@@ -15,7 +15,7 @@ Yes, you read right: all this for free. (Except for your domain registration cos
 
 ## Custom Domain Emailing
 
-> IIRC, there is a soft cap of sending 500 emails per day. PR welcome if I'm wrong, or to add an information source if I'm right.
+> IIRC, there is a soft cap of sending 500 emails per day. PR welcome if I'm wrong, or, if I'm right, to add an information source.
 
 1. If your domain, e.g. `my-domain.com`, is not already registered with [Google Domains](https://domains.google.com/), then transfer your domain to Google Domains [domains.google.com/registrar/transfer](https://domains.google.com/registrar/transfer).
    >  - Google Domains will show you some transfer cost, but these are only one additional domain year purchase. Transferring is actually free.
