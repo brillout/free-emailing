@@ -24,7 +24,22 @@ Yes, you read right: all this for free. (Except for your domain registration cos
 1. Create a Gmail account, e.g. `my-email@gmail.com`, if you don't have one already.
 1. After transfer is done, set up email forwarding in Google Domains to forward all `*@my-domain.com` to your Gmail email.
    - Go to: [domains.google.com/registrar/](https://domains.google.com/registrar/) > My domains > `my-domain.com` > Manage > Email > Email forwarding > Add email alias. Then add `*@my-domain.com` with the forward target `my-email@gmail.com`.
-1. Setup up a new `Send email as` configuration in your Gmail to enable sending emails from `hello@my-domain.com` using your gmail account. (PR welcome to add instructions.)
+1. Setup up a new `Send email as` configuration in your Gmail to enable sending emails from `hello@my-domain.com` using your gmail account `my-email@gmail.com`.
+   1. Generate app password:
+      1. Go to [`Google Account` > `Security`](https://myaccount.google.com/security?hl=en) > `App passwords`.
+      1. Set `Select app` to `Other (custom name)` > Set name to something like `Send email as hello@my-domain.com`.
+      1. Click `Generate` > Save app password somewhere safe.
+   2. In the Gmail settings of `my-email@gmail.com`:
+      1. Go to [`Settings` > `Accounts and Import`](https://mail.google.com/mail/u/0/#settings/accounts).
+      1. In the section `Send mail as` click link `Add another email address` and fill:
+         - `Email address` => `hello@my-domain.com`
+         - `Treat as an alias` => `yes`
+         - `SMTP Server` => `smtp.gmail.com`
+         - `Port` => `587`
+         - `Username` => `my-email` (the account name of `my-email@gmail.com`)
+         - `Password` => the app password generated in the previous step
+         - `Secured connection using TLS (recommended)` => `yes`
+      1. Enter the verification code, which you received in your gmail
 1. Test your setup.
    - Create a new temporary fake Gmail account: Go to [gmail.com](https://gmail.com) in Incognito Mode (`<Ctrl><Shift>N`).
      > No telephone number nor secondary email is required (a Gmail account can be created completely anonymously).
